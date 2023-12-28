@@ -4,6 +4,39 @@
     font-family: 'Arial', sans-serif;
     box-sizing: border-box;
 }
+nav {
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    background-color: rgb(210, 241, 237);
+}
+nav ul {
+    width: 25vw;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+nav a {
+    text-decoration: none;
+    color: #752a2a;
+}
+nav li {
+    padding: 10px 30px;
+    cursor: pointer;
+    margin: 10% 5%;
+    background-color: #588379;
+    border-radius: 5%;
+    color: #752a2a;
+    font-weight: bold;
+    font-size: 1em;
+}
+nav li:hover {
+    background-color: #5b548a;
+    transition: 0.5s;
+}
 
 .container{
     width: 100%;
